@@ -30,7 +30,7 @@ for question in range(len(question_bank)):
     for i in option[question]:
         print(i)
     answer = input("Enter your answer(A/B/C/D):").upper()
-    if check_answer := (answer , question_bank[question]["Answer"]):
+    if check_answer = (answer , question_bank[question]["Answer"]):
         print("correct answer")
         score +=1
     else:
