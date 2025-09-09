@@ -39,15 +39,26 @@ elif user_choice == "Rock":
     if computer_choice == "Paper":
         print("computer win")
     else:
-        print("You win")
+        print("you win")
 
+elif user_choice == "rock":
+    if computer_choice == "scissor":
+        print("you win")
+    else:
+        print("computer win")
 
 
 elif user_choice == "Paper":
     if computer_choice == "Rock":
+        print("you win")
+    else:
+        print("computer win")
+
+elif user_choice == "Paper":
+    if computer_choice == "scissor":
         print("computer win")
     else:
-        print("You win")
+        print("you win")
 
 
 elif user_choice == "Scissor":
@@ -55,3 +66,9 @@ elif user_choice == "Scissor":
         print("computer win")
     else:
         print("you win")
+
+elif user_choice == "scissor":
+    if computer_choice == "Paper":
+        print("you win")
+    else:
+        print("computer win")
