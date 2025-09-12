@@ -97,7 +97,7 @@ letters = {
 
 # Zip the rows together and print line by line
 word = ['H','A','P','P','Y',     'B','I','R','T','H','D','A','Y']
-for i in range(5):
+for i in range(14):
     for j in word:
         print(letters[j][i], end="  ")  # Add spacing between letters
     print()
